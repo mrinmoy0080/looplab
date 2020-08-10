@@ -1,0 +1,71 @@
+body{
+    background: black;
+    color: white;
+}
+.navbar{
+    background-color: #090C11;
+    opacity: 0.7;
+    border-bottom: 3px solid #1E6994;
+}
+.home{
+    background-image: url('../img/ss.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+}
+.overlay{
+    background-color: black;
+    height: 700px;
+    opacity: 0.6;
+}
+.build{
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+i{
+    padding: 7px;
+    background-color: #FFFEFF;
+    color: #0A8AD6;
+    border-radius: 4px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.form{
+    box-sizing: border-box;
+    background-color: rgb(10, 126, 116);
+    height: 400px;
+    width: 300px;
+    border-radius: 4px;
+}
+.input{
+    height: 40px;
+    width: 270px;
+    padding: 5px;
+    background-color:white;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 1px transparent;
+}
+::placeholder{
+    color: gray;
+    font-size: 15px;
+}
+.submit{
+    height: 40px;
+    width: 270px;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: transparent;
+    padding: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.submit:hover{
+    background-color: white;
+    color: #037BFF;
+    cursor: pointer;
+}
